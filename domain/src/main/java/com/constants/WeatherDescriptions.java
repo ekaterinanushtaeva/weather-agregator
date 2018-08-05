@@ -1,0 +1,55 @@
+package com.constants;
+
+public interface WeatherDescriptions {
+
+    String TORNADO = "Возможно торнадо";
+    String TROPICAL_STORM = "Возможен тропический шторм";
+    String HURRICANE = "Возможен ураган";
+    String SEVERE_THUNDERSTORMS = "Сильные грозы";
+    String THUNDERSTORMS_NIGHT = "Ночью вожможны грозы";
+    String MIXED_RAIN_AND_SNOW = "Дождь и снег";
+    String MIXED_RAIN_AND_SLEET = "Дождь и мокрый снег";
+    String MIXED_SNOW_AND_SLEET = "Снег и мокрый снег";
+    String FREEZING_DRIZZLE = "Заморозки";
+    String DRIZZLE = "Мороз";
+    String FREEZING_RAIN = "Дождь";
+    String SHOWERS_NIGHT = "Возможны ливни ночью";
+    String SHOWERS_DAY = "Возможны ливни днём";
+    String SNOW_FURRIES = "Снежные бури";
+    String LIGHT_SNOW_SHOWERS = "Лёгкие снегопады";
+    String BLOWING_SNOW = "Снежные вихри";
+    String SNOW = "Снег";
+    String HAIL = "Град";
+    String SLEET = "Мокрый снег";
+    String DUST = "Пыльные бури";
+    String FOGGY = "Туман";
+    String HAZE = "Мгла";
+    String SMOKY = "Плохая видимость";
+    String BLUSTERY = "Возможны бури";
+    String WINDY = "Ветренно";
+    String COLD = "Холодно";
+    String CLOUDY = "Облачно";
+    String MOSTLY_CLOUDY_NIGHT = "Полная облачность ночью";
+    String MOSTLY_CLOUDY_DAY = "Полная облачность днём";
+    String PARTLY_CLOUDY_NIGHT = "Частичная облачность ночью";
+    String PARTLY_CLOUDY_DAY = "Частичная облачность днём";
+    String CLEAR_NIGHT = "Чистое небо ночью";
+    String SUNNY = "Солнечно";
+    String FAIR_NIGHT = "Ясная ночь";
+    String FAIR_DAY ="Ясный день";
+    String MIXED_FAIR_AND_HAIL = "Ясно и град";
+    String HOT = "Жарко";
+    String ISOLATED_THUNDERSTORMS = "Местами грозы";
+    String SCATTERED_THUNDERSTORMS_NIGHT = "Грозы ночью";
+    String SCATTERED_THUNDERSTORMS_DAY = "Грозы днём";
+    String SCATTERED_SHOWERS = "Сильные ливни";
+    String HEAVY_SNOW_NIGHT = "Снежно ночью";
+    String SCATTERED_SNOW_SHOWERS = "Сильные снегопады";
+    String HEAVY_SNOW_DAY = "Снежно днём";
+    String PARTLY_CLOUDY = "Частичная облачность";
+    String THUNDERSTORMS_DAY = "Грозы днём";
+    String HEAVY_SNOW = "Снежно";
+    String SNOW_SHOWERS = "Снегопады";
+    String ISOLATED_THUDER_SHOWERS = "Местами гром с грозами";
+    String NOT_AVAILABLE = "Не известно";
+}

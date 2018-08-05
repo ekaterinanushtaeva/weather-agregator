@@ -11,4 +11,13 @@
 
     <groupId>weather-agregator</groupId>
     <artifactId>weather-agregator-data</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>weather-agregator</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
