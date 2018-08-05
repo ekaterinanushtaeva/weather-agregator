@@ -8,6 +8,7 @@
         <version>2.0.3.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>weather-agregator</groupId>
     <artifactId>weather-agregator-parent</artifactId>
     <packaging>pom</packaging>

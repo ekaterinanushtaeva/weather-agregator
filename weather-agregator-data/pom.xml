@@ -13,7 +13,6 @@
     <artifactId>weather-agregator-data</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>weather-agregator</groupId>
             <artifactId>domain</artifactId>
