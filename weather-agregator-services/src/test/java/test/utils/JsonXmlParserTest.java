@@ -30,9 +30,9 @@ public class JsonXmlParserTest {
                         .getClassLoader()
                         .getResourceAsStream(YAHOO_TEST_JSON_RESOURSE)));
 
-        Assert.assertTrue(yahooEntities.size() == 10);
-        Assert.assertTrue(yahooEntities.get(0).getText() != null);
-        Assert.assertTrue(yahooEntities.get(0).getDay() != null);
-        Assert.assertTrue(yahooEntities.get(0).getDate() != null);
+        Assert.assertEquals(yahooEntities.size() , 10);
+        Assert.assertNotNull(yahooEntities.get(0).getText());
+        Assert.assertNotNull(yahooEntities.get(0).getDay());
+        Assert.assertNotNull(yahooEntities.get(0).getDate());
     }
 }
