@@ -3,6 +3,7 @@ package com.utils;
 import com.constants.WeatherDescriptions;
 import lombok.experimental.UtilityClass;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import static com.constants.YahooConstants.WeatherCodes.*;
@@ -10,7 +11,7 @@ import static com.constants.YahooConstants.WeatherCodes.*;
 @UtilityClass
 public class WeatherDescriptionUtils {
 
-    private static Map<Integer, String> yahooCodesToDescriptions;
+    private static Map<Integer, String> yahooCodesToDescriptions = new HashMap<>();
 
     static {
         yahooCodesToDescriptions.put(TORNADO, WeatherDescriptions.TORNADO);
