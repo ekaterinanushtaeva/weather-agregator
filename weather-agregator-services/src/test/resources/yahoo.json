@@ -1,0 +1,571 @@
+{
+  "query":{
+    "count":4,
+    "created":"2018-08-05T07:40:43Z",
+    "lang":"ru-RU",
+    "results":{
+      "channel":[
+        {
+          "units":{
+            "distance":"mi",
+            "pressure":"in",
+            "speed":"mph",
+            "temperature":"F"
+          },
+          "title":"Yahoo! Weather - Ul'yanovsk Raion, Ulyanovsk Oblast, RU",
+          "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-12599521/",
+          "description":"Yahoo! Weather for Ul'yanovsk Raion, Ulyanovsk Oblast, RU",
+          "language":"en-us",
+          "lastBuildDate":"Sun, 05 Aug 2018 10:40 AM MSK",
+          "ttl":"60",
+          "location":{
+            "city":"Ul'yanovsk Raion",
+            "country":"Russia",
+            "region":" Ulyanovsk Oblast"
+          },
+          "wind":{
+            "chill":"81",
+            "direction":"248",
+            "speed":"11"
+          },
+          "atmosphere":{
+            "humidity":"50",
+            "pressure":"997.0",
+            "rising":"0",
+            "visibility":"16.1"
+          },
+          "astronomy":{
+            "sunrise":"4:6 am",
+            "sunset":"7:38 pm"
+          },
+          "image":{
+            "title":"Yahoo! Weather",
+            "width":"142",
+            "height":"18",
+            "link":"http://weather.yahoo.com",
+            "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+          },
+          "item":{
+            "title":"Conditions for Ul'yanovsk Raion, Ulyanovsk Oblast, RU at 10:00 AM MSK",
+            "lat":"54.2827",
+            "long":"48.369801",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-12599521/",
+            "pubDate":"Sun, 05 Aug 2018 10:00 AM MSK",
+            "condition":{
+              "code":"30",
+              "date":"Sun, 05 Aug 2018 10:00 AM MSK",
+              "temp":"81",
+              "text":"Partly Cloudy"
+            },
+            "forecast":[
+              {
+                "code":"47",
+                "date":"05 Aug 2018",
+                "day":"Sun",
+                "high":"83",
+                "low":"69",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"30",
+                "date":"06 Aug 2018",
+                "day":"Mon",
+                "high":"84",
+                "low":"71",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"47",
+                "date":"07 Aug 2018",
+                "day":"Tue",
+                "high":"81",
+                "low":"68",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"47",
+                "date":"08 Aug 2018",
+                "day":"Wed",
+                "high":"70",
+                "low":"63",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"30",
+                "date":"09 Aug 2018",
+                "day":"Thu",
+                "high":"67",
+                "low":"58",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"34",
+                "date":"10 Aug 2018",
+                "day":"Fri",
+                "high":"74",
+                "low":"58",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"34",
+                "date":"11 Aug 2018",
+                "day":"Sat",
+                "high":"83",
+                "low":"67",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"32",
+                "date":"12 Aug 2018",
+                "day":"Sun",
+                "high":"86",
+                "low":"70",
+                "text":"Sunny"
+              },
+              {
+                "code":"30",
+                "date":"13 Aug 2018",
+                "day":"Mon",
+                "high":"86",
+                "low":"73",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"30",
+                "date":"14 Aug 2018",
+                "day":"Tue",
+                "high":"85",
+                "low":"67",
+                "text":"Partly Cloudy"
+              }
+            ],
+            "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/30.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Partly Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Scattered Thunderstorms. High: 83Low: 69\n<BR /> Mon - Partly Cloudy. High: 84Low: 71\n<BR /> Tue - Scattered Thunderstorms. High: 81Low: 68\n<BR /> Wed - Scattered Thunderstorms. High: 70Low: 63\n<BR /> Thu - Partly Cloudy. High: 67Low: 58\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-12599521/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+            "guid":{
+              "isPermaLink":"false"
+            }
+          }
+        },
+        {
+          "units":{
+            "distance":"mi",
+            "pressure":"in",
+            "speed":"mph",
+            "temperature":"F"
+          },
+          "title":"Yahoo! Weather - Ul'yanovsk, Ulyanovsk Oblast, RU",
+          "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2100018/",
+          "description":"Yahoo! Weather for Ul'yanovsk, Ulyanovsk Oblast, RU",
+          "language":"en-us",
+          "lastBuildDate":"Sun, 05 Aug 2018 10:40 AM MSK",
+          "ttl":"60",
+          "location":{
+            "city":"Ul'yanovsk",
+            "country":"Russia",
+            "region":" Ulyanovsk Oblast"
+          },
+          "wind":{
+            "chill":"81",
+            "direction":"248",
+            "speed":"11"
+          },
+          "atmosphere":{
+            "humidity":"48",
+            "pressure":"996.0",
+            "rising":"0",
+            "visibility":"16.1"
+          },
+          "astronomy":{
+            "sunrise":"4:6 am",
+            "sunset":"7:38 pm"
+          },
+          "image":{
+            "title":"Yahoo! Weather",
+            "width":"142",
+            "height":"18",
+            "link":"http://weather.yahoo.com",
+            "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+          },
+          "item":{
+            "title":"Conditions for Ul'yanovsk, Ulyanovsk Oblast, RU at 10:00 AM MSK",
+            "lat":"54.300259",
+            "long":"48.334061",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2100018/",
+            "pubDate":"Sun, 05 Aug 2018 10:00 AM MSK",
+            "condition":{
+              "code":"30",
+              "date":"Sun, 05 Aug 2018 10:00 AM MSK",
+              "temp":"81",
+              "text":"Partly Cloudy"
+            },
+            "forecast":[
+              {
+                "code":"47",
+                "date":"05 Aug 2018",
+                "day":"Sun",
+                "high":"83",
+                "low":"69",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"30",
+                "date":"06 Aug 2018",
+                "day":"Mon",
+                "high":"84",
+                "low":"71",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"47",
+                "date":"07 Aug 2018",
+                "day":"Tue",
+                "high":"81",
+                "low":"68",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"47",
+                "date":"08 Aug 2018",
+                "day":"Wed",
+                "high":"70",
+                "low":"63",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"30",
+                "date":"09 Aug 2018",
+                "day":"Thu",
+                "high":"67",
+                "low":"58",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"34",
+                "date":"10 Aug 2018",
+                "day":"Fri",
+                "high":"74",
+                "low":"58",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"34",
+                "date":"11 Aug 2018",
+                "day":"Sat",
+                "high":"83",
+                "low":"67",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"32",
+                "date":"12 Aug 2018",
+                "day":"Sun",
+                "high":"86",
+                "low":"70",
+                "text":"Sunny"
+              },
+              {
+                "code":"30",
+                "date":"13 Aug 2018",
+                "day":"Mon",
+                "high":"86",
+                "low":"73",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"30",
+                "date":"14 Aug 2018",
+                "day":"Tue",
+                "high":"85",
+                "low":"67",
+                "text":"Partly Cloudy"
+              }
+            ],
+            "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/30.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Partly Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Scattered Thunderstorms. High: 83Low: 69\n<BR /> Mon - Partly Cloudy. High: 84Low: 71\n<BR /> Tue - Scattered Thunderstorms. High: 81Low: 68\n<BR /> Wed - Scattered Thunderstorms. High: 70Low: 63\n<BR /> Thu - Partly Cloudy. High: 67Low: 58\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2100018/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+            "guid":{
+              "isPermaLink":"false"
+            }
+          }
+        },
+        {
+          "units":{
+            "distance":"mi",
+            "pressure":"in",
+            "speed":"mph",
+            "temperature":"F"
+          },
+          "title":"Yahoo! Weather - Ульяновск, Ulyanovsk Oblast, RU",
+          "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-90615807/",
+          "description":"Yahoo! Weather for Ульяновск, Ulyanovsk Oblast, RU",
+          "language":"en-us",
+          "lastBuildDate":"Sun, 05 Aug 2018 10:40 AM MSK",
+          "ttl":"60",
+          "location":{
+            "city":"Ульяновск",
+            "country":"Russia",
+            "region":" Ulyanovsk Oblast"
+          },
+          "wind":{
+            "chill":"81",
+            "direction":"248",
+            "speed":"7"
+          },
+          "atmosphere":{
+            "humidity":"50",
+            "pressure":"998.0",
+            "rising":"0",
+            "visibility":"16.1"
+          },
+          "astronomy":{
+            "sunrise":"4:5 am",
+            "sunset":"7:37 pm"
+          },
+          "image":{
+            "title":"Yahoo! Weather",
+            "width":"142",
+            "height":"18",
+            "link":"http://weather.yahoo.com",
+            "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+          },
+          "item":{
+            "title":"Conditions for Ульяновск, Ulyanovsk Oblast, RU at 10:00 AM MSK",
+            "lat":"54.348839",
+            "long":"48.567471",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-90615807/",
+            "pubDate":"Sun, 05 Aug 2018 10:00 AM MSK",
+            "condition":{
+              "code":"30",
+              "date":"Sun, 05 Aug 2018 10:00 AM MSK",
+              "temp":"81",
+              "text":"Partly Cloudy"
+            },
+            "forecast":[
+              {
+                "code":"47",
+                "date":"05 Aug 2018",
+                "day":"Sun",
+                "high":"83",
+                "low":"69",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"30",
+                "date":"06 Aug 2018",
+                "day":"Mon",
+                "high":"86",
+                "low":"70",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"30",
+                "date":"07 Aug 2018",
+                "day":"Tue",
+                "high":"82",
+                "low":"68",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"47",
+                "date":"08 Aug 2018",
+                "day":"Wed",
+                "high":"70",
+                "low":"62",
+                "text":"Scattered Thunderstorms"
+              },
+              {
+                "code":"30",
+                "date":"09 Aug 2018",
+                "day":"Thu",
+                "high":"68",
+                "low":"58",
+                "text":"Partly Cloudy"
+              },
+              {
+                "code":"34",
+                "date":"10 Aug 2018",
+                "day":"Fri",
+                "high":"74",
+                "low":"58",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"34",
+                "date":"11 Aug 2018",
+                "day":"Sat",
+                "high":"86",
+                "low":"66",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"32",
+                "date":"12 Aug 2018",
+                "day":"Sun",
+                "high":"87",
+                "low":"69",
+                "text":"Sunny"
+              },
+              {
+                "code":"34",
+                "date":"13 Aug 2018",
+                "day":"Mon",
+                "high":"84",
+                "low":"70",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"30",
+                "date":"14 Aug 2018",
+                "day":"Tue",
+                "high":"87",
+                "low":"69",
+                "text":"Partly Cloudy"
+              }
+            ],
+            "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/30.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Partly Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Scattered Thunderstorms. High: 83Low: 69\n<BR /> Mon - Partly Cloudy. High: 86Low: 70\n<BR /> Tue - Partly Cloudy. High: 82Low: 68\n<BR /> Wed - Scattered Thunderstorms. High: 70Low: 62\n<BR /> Thu - Partly Cloudy. High: 68Low: 58\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-90615807/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+            "guid":{
+              "isPermaLink":"false"
+            }
+          }
+        },
+        {
+          "units":{
+            "distance":"mi",
+            "pressure":"in",
+            "speed":"mph",
+            "temperature":"F"
+          },
+          "title":"Yahoo! Weather - Ul'yanovsk, Qashqadaryo, UZ",
+          "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2272212/",
+          "description":"Yahoo! Weather for Ul'yanovsk, Qashqadaryo, UZ",
+          "language":"en-us",
+          "lastBuildDate":"Sun, 05 Aug 2018 12:40 PM UZT",
+          "ttl":"60",
+          "location":{
+            "city":"Ul'yanovsk",
+            "country":"Uzbekistan",
+            "region":" Qashqadaryo"
+          },
+          "wind":{
+            "chill":"95",
+            "direction":"338",
+            "speed":"4"
+          },
+          "atmosphere":{
+            "humidity":"24",
+            "pressure":"961.0",
+            "rising":"0",
+            "visibility":"16.1"
+          },
+          "astronomy":{
+            "sunrise":"5:42 am",
+            "sunset":"7:43 pm"
+          },
+          "image":{
+            "title":"Yahoo! Weather",
+            "width":"142",
+            "height":"18",
+            "link":"http://weather.yahoo.com",
+            "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+          },
+          "item":{
+            "title":"Conditions for Ul'yanovsk, Qashqadaryo, UZ at 12:00 PM UZT",
+            "lat":"38.9333",
+            "long":"65.433296",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2272212/",
+            "pubDate":"Sun, 05 Aug 2018 12:00 PM UZT",
+            "condition":{
+              "code":"32",
+              "date":"Sun, 05 Aug 2018 12:00 PM UZT",
+              "temp":"95",
+              "text":"Sunny"
+            },
+            "forecast":[
+              {
+                "code":"32",
+                "date":"05 Aug 2018",
+                "day":"Sun",
+                "high":"102",
+                "low":"68",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"06 Aug 2018",
+                "day":"Mon",
+                "high":"103",
+                "low":"78",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"07 Aug 2018",
+                "day":"Tue",
+                "high":"100",
+                "low":"78",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"08 Aug 2018",
+                "day":"Wed",
+                "high":"99",
+                "low":"70",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"09 Aug 2018",
+                "day":"Thu",
+                "high":"102",
+                "low":"72",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"10 Aug 2018",
+                "day":"Fri",
+                "high":"102",
+                "low":"77",
+                "text":"Sunny"
+              },
+              {
+                "code":"34",
+                "date":"11 Aug 2018",
+                "day":"Sat",
+                "high":"96",
+                "low":"78",
+                "text":"Mostly Sunny"
+              },
+              {
+                "code":"32",
+                "date":"12 Aug 2018",
+                "day":"Sun",
+                "high":"87",
+                "low":"75",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"13 Aug 2018",
+                "day":"Mon",
+                "high":"92",
+                "low":"66",
+                "text":"Sunny"
+              },
+              {
+                "code":"32",
+                "date":"14 Aug 2018",
+                "day":"Tue",
+                "high":"94",
+                "low":"65",
+                "text":"Sunny"
+              }
+            ],
+            "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/32.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Sunny\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Sunny. High: 102Low: 68\n<BR /> Mon - Sunny. High: 103Low: 78\n<BR /> Tue - Sunny. High: 100Low: 78\n<BR /> Wed - Sunny. High: 99Low: 70\n<BR /> Thu - Sunny. High: 102Low: 72\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2272212/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+            "guid":{
+              "isPermaLink":"false"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
