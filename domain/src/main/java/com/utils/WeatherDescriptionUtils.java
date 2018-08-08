@@ -61,8 +61,7 @@ public class WeatherDescriptionUtils {
         yahooCodesToDescriptions.put(SCATTERED_SNOW_SHOWERS, WeatherDescriptions.SCATTERED_SNOW_SHOWERS);
         yahooCodesToDescriptions.put(HEAVY_SNOW_DAY, WeatherDescriptions.HEAVY_SNOW_DAY);
         yahooCodesToDescriptions.put(PARTLY_CLOUDY, WeatherDescriptions.PARTLY_CLOUDY);
-        yahooCodesToDescriptions.put(THUNDERSTORMS_DAY, WeatherDescriptions.THUNDERSTORMS_DAY);
-        yahooCodesToDescriptions.put(HEAVY_SNOW, WeatherDescriptions.HEAVY_SNOW);
+        yahooCodesToDescriptions.put(THUNDERSHOWERS_DAY, WeatherDescriptions.THUNDERSTORMS_DAY);
         yahooCodesToDescriptions.put(ISOLATED_THUDER_SHOWERS, WeatherDescriptions.ISOLATED_THUDER_SHOWERS);
         yahooCodesToDescriptions.put(SNOW_SHOWERS, WeatherDescriptions.SNOW_SHOWERS);
         yahooCodesToDescriptions.put(NOT_AVAILABLE, WeatherDescriptions.NOT_AVAILABLE);
