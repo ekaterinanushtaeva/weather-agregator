@@ -48,7 +48,6 @@ public interface WeatherDescriptions {
     String HEAVY_SNOW_DAY = "Снежный день";
     String PARTLY_CLOUDY = "Частичная облачность";
     String THUNDERSTORMS_DAY = "Грозы днём";
-    String HEAVY_SNOW = "Снежно";
     String SNOW_SHOWERS = "Снегопады";
     String ISOLATED_THUDER_SHOWERS = "Местами гром и грозы";
     String NOT_AVAILABLE = "Не известно";

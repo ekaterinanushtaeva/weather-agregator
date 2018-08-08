@@ -6,23 +6,32 @@ import com.classes.YahooEntity;
 import com.utils.api.JsonXmlParser;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static com.constants.JsonObjectConstants.*;
 
 @Component
 public class JsonXmlParserImpl implements JsonXmlParser {
 
-    @Override
-    public List<YahooEntity> jsonToYahooEntity(String json) {
 
-        return ((JSONObject) JSON.parse(json))
+    @Override
+    public List<YahooEntity> jsonToYahooEntityList(String json) {
+        JSONObject results = ((JSONObject) JSON.parse(json))
                 .getJSONObject(QUERY)
-                .getJSONObject(RESULTS)
+                .getJSONObject(RESULTS);
+
+        if (results == null) {
+            return Collections.emptyList();
+        }
+
+        return results
                 .getJSONArray(CHANNEL)
-                .getJSONObject(START_ARRAY_INDEX)
-                .getJSONObject(ITEM)
-                .getJSONArray(FORECAST)
-                .toJavaList(YahooEntity.class);
+                .stream()
+                .map(jsonObject -> ((JSONObject) jsonObject)
+                        .getJSONObject(ITEM)
+                        .getObject(FORECAST, YahooEntity.class))
+                .collect(Collectors.toList());
     }
 }

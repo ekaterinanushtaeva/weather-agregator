@@ -52,10 +52,9 @@ public interface YahooConstants {
         int SCATTERED_SNOW_SHOWERS = 42;
         int HEAVY_SNOW_DAY = 43;
         int PARTLY_CLOUDY = 44;
-        int THUNDERSTORMS_DAY = 45;
-        int HEAVY_SNOW = 46;
-        int SNOW_SHOWERS = 47;
-        int ISOLATED_THUDER_SHOWERS = 48;
+        int THUNDERSHOWERS_DAY = 45;
+        int SNOW_SHOWERS = 46;
+        int ISOLATED_THUDER_SHOWERS = 47;
         int NOT_AVAILABLE = 3200;
     }
 

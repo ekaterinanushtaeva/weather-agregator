@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import test.constants.JsonXmlParserTestConstants;
 
 import java.io.IOException;
 import java.util.List;
@@ -26,14 +25,14 @@ public class JsonXmlParserTest {
 
     @Test
     public void jsonToYahooEntitySuccessTest() throws IOException {
-        List<YahooEntity> yahooEntities = jsonXmlParser.jsonToYahooEntity(IOUtils
+        List<YahooEntity> yahooEntities = jsonXmlParser.jsonToYahooEntityList(IOUtils
                 .toString(getClass()
                         .getClassLoader()
                         .getResourceAsStream(YAHOO_TEST_JSON_RESOURSE)));
 
-        Assert.assertTrue(yahooEntities.size() == 10);
-        Assert.assertTrue(yahooEntities.get(0).getText() != null);
-        Assert.assertTrue(yahooEntities.get(0).getDay() != null);
-        Assert.assertTrue(yahooEntities.get(0).getDate() != null);
+        Assert.assertEquals(yahooEntities.size() , 10);
+        Assert.assertNotNull(yahooEntities.get(0).getText());
+        Assert.assertNotNull(yahooEntities.get(0).getDay());
+        Assert.assertNotNull(yahooEntities.get(0).getDate());
     }
 }

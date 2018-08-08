@@ -3,6 +3,7 @@ package com.utils;
 import com.constants.WeatherDescriptions;
 import lombok.experimental.UtilityClass;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import static com.constants.YahooConstants.WeatherCodes.*;
@@ -10,7 +11,7 @@ import static com.constants.YahooConstants.WeatherCodes.*;
 @UtilityClass
 public class WeatherDescriptionUtils {
 
-    private static Map<Integer, String> yahooCodesToDescriptions;
+    private static Map<Integer, String> yahooCodesToDescriptions = new HashMap<>();
 
     static {
         yahooCodesToDescriptions.put(TORNADO, WeatherDescriptions.TORNADO);
@@ -60,8 +61,7 @@ public class WeatherDescriptionUtils {
         yahooCodesToDescriptions.put(SCATTERED_SNOW_SHOWERS, WeatherDescriptions.SCATTERED_SNOW_SHOWERS);
         yahooCodesToDescriptions.put(HEAVY_SNOW_DAY, WeatherDescriptions.HEAVY_SNOW_DAY);
         yahooCodesToDescriptions.put(PARTLY_CLOUDY, WeatherDescriptions.PARTLY_CLOUDY);
-        yahooCodesToDescriptions.put(THUNDERSTORMS_DAY, WeatherDescriptions.THUNDERSTORMS_DAY);
-        yahooCodesToDescriptions.put(HEAVY_SNOW, WeatherDescriptions.HEAVY_SNOW);
+        yahooCodesToDescriptions.put(THUNDERSHOWERS_DAY, WeatherDescriptions.THUNDERSTORMS_DAY);
         yahooCodesToDescriptions.put(ISOLATED_THUDER_SHOWERS, WeatherDescriptions.ISOLATED_THUDER_SHOWERS);
         yahooCodesToDescriptions.put(SNOW_SHOWERS, WeatherDescriptions.SNOW_SHOWERS);
         yahooCodesToDescriptions.put(NOT_AVAILABLE, WeatherDescriptions.NOT_AVAILABLE);
