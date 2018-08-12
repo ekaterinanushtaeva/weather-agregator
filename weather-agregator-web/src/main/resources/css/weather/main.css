@@ -1,0 +1,30 @@
+.VueCarousel-slide {
+    position: relative;
+    background: #fff;
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
+    min-height: 450px;
+}
+
+ .label {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+.VueCarousel-navigation-button{
+     font-size: 50px;
+     font-weight: 700;
+ }
+
+ #yahoo-block{
+ margin-left: 3vw;
+ margin-top:2vh;
+ }
+
+ h1{
+ margin:0 !important;
+ }
