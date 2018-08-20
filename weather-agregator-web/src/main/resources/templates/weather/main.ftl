@@ -14,6 +14,9 @@
    <div class="row">
       <div id="yahoo-block" class="col l3 s10">
          <h1 class="center-align">Yahoo</h1>
+         <div class="col m4 s4 offset-m4 offset-s3 service-block">
+          <img src="http://dummyimage.com/200x200/f0f/fff" alt="" class="responsive-img circle"/>
+         </div>
          <carousel :per-page="1" :pagination-enabled="false" :navigation-enabled="true" :navigation-next-label="'<i>></i>'"
             :navigation-prev-label="'<i><</i>'">
             <#list weatherList as weather>
@@ -24,7 +27,7 @@
                   <h1>${weather.temperature}℃</h1>
                   <div class="row valign-wrapper">
                      <div class="col l8 s4">
-                        <img src="http://dummyimage.com/200x200/f0f/fff" alt="" class="responsive-img"> <!-- здесь будет картинка с состоянием погоды -->
+                        <img src="http://dummyimage.com/200x200/f0f/fff" alt="" class="responsive-img"/> <!-- здесь будет картинка с состоянием погоды -->
                      </div>
                      <div class="col s8">
                         <h4>

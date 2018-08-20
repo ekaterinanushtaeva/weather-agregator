@@ -23,8 +23,14 @@
  #yahoo-block{
  margin-left: 3vw;
  margin-top:2vh;
+ border: 1px solid #ff9933;
+ padding: 50px;
  }
 
  h1{
  margin:0 !important;
+ }
+
+ .service-block{
+ margin-top:1vh;
  }
